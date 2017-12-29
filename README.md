@@ -46,8 +46,30 @@ API REST + Twitter + Hibernate + Junit
             <property name="hibernate.dialect" value="org.hibernate.dialect.OracleDialect"/>
         </properties>
     </persistence-unit>
-</persis
+<persistence>
 ```
+## Servicos
+
+### POST ..api/rest/tweet/procurar
+Busca simples por Like
+```json
+[{"busca" : "valor"}]
+```
+
+### POST ..api/rest/tweet/captar
+```json
+[{"busca" : "valor"]
+```
+
+### GET ..api/rest/tweet/{idTweet}/estatisticas
+
+### GET ..api/rest/tweet/{idTweet}/mais_comum
+TODO obs: nao deu tempo de desenvolver
+
+### GET ..api/rest/tweet/mais_longa
+
+### GET ..api/rest/tweet/exatamente_em/{numeroRepeticoes}
+TODO obs: nao deu tempo de desenvolver
 
 ## Modelo Relacional
 ![Link](https://github.com/marcusjpl/avaliacao2/blob/master/modelo.png)
