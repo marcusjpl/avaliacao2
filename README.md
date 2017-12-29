@@ -49,5 +49,8 @@ API REST + Twitter + Hibernate + Junit
 </persis
 ```
 
+## Modelo Relacional
+![Link](https://github.com/marcusjpl/avaliacao2/blob/master/modelo.png)
+
 ## Script Tabelas
 Link para o arquivo: [Script]()
