@@ -53,4 +53,4 @@ API REST + Twitter + Hibernate + Junit
 ![Link](https://github.com/marcusjpl/avaliacao2/blob/master/modelo.png)
 
 ## Script Tabelas
-Link para o arquivo: [Script]()
+Link para o arquivo: [Script](https://github.com/marcusjpl/avaliacao2/blob/master/scriptAPI.sql)
