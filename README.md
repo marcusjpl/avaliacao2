@@ -55,13 +55,38 @@ Busca simples por Like
 ```json
 [{"busca" : "valor"}]
 ```
+#### Retorno
+```json
+[
+  {
+    "id": 946727289361854500,
+    "conteudo": "RT @truckster1: Illegal Alien Drunk Driver Accused of Killing Two-Year-Old Boy https://t.co/XI3Qbvtoeo \n#BuildTheWall \n#EnforceUSLaws\n#Keep…",
+    "autor": "Truckster1"
+  },
+  {
+    "id": 946727276028112900,
+    "conteudo": "RT @truckster1: Drunk-Driving Illegal Alien Mexican Kills Indiana Man, a Former Missionary via @vdare\n#BuildTheWall \n#EnforceUSLaws\n#KeepAm…",
+    "autor": "Truckster1"
+  } ]
+```
 
 ### POST ..api/rest/tweet/captar
 ```json
-[{"busca" : "valor"]
+[{"busca" : "valor"}]
 ```
 
 ### GET ..api/rest/tweet/{idTweet}/estatisticas
+### Retorno
+```json
+[
+  {
+    "numeroPalavras": 14,
+    "tamanhoPalavraMaisCurta": 23,
+    "tamanhoPalavraMaisLonga": 2,
+    "mediaTamanhoPalavras": 9.071428571428571
+  }
+]
+```
 
 ### GET ..api/rest/tweet/{idTweet}/mais_comum
 TODO obs: nao deu tempo de desenvolver
